@@ -1,0 +1,27 @@
+<DOCTYPE! html>
+<head>
+  <title>JS Temperature Conversion</title>
+</head>
+<body>
+<h1>Temperature Conversion</h1>
+<button onclick="fahr()">Fahrenheit to Celsius</button>
+<br />
+<br />
+<button onclick="cels()">Celsius to Fahrenheit</button>
+<script>
+function fahr() {
+  var f = prompt("Convert Fahrenheit to Celsius");
+  f = f - 32;
+  f = f * 5/9;
+  alert(f);
+}
+
+function cels() {
+  var c = prompt("Convert Celsius to Fahrenheit");
+  c = c * 9/5;
+  c = c + 32;
+  alert(c);
+}
+</script>
+</body>
+</html>
